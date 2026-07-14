@@ -12,6 +12,9 @@ tested it across basically every major C2 framework (Cobalt Strike, Havoc, Slive
 
 even built a dropper that keeps everything in-memory so there's nothing on disk to reverse engineer. the injection library encrypts and fragments the payload, then melts it into process memory. forensics nightmare.
 
+![LP](./LP.png)
+![Dropper](./Dropper.png)
+
 ## Why Memory Injection Hits Different
 
 **Antivirus is Lazy**
@@ -66,6 +69,8 @@ Current defensive tools have a massive blind spot: they're not watching memory e
 - kernel-level process monitoring
 - EDR solutions that can catch anomalous memory allocation patterns
 - forensic memory analysis as part of incident response
+
+![VirusTotal Scan](./VT.png)
 
 ## References
 
