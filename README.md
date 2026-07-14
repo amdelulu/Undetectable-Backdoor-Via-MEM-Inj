@@ -73,8 +73,6 @@ Current defensive tools have a massive blind spot: they're not watching memory e
 ![VirusTotal Scan](./VT.png)
 
 ## References
-
-- [ired.team Memory Injection Techniques](https://ired.team)
 - [MITRE ATT&CK: Process Injection (T1055)](https://attack.mitre.org/techniques/T1055/)
 - Windows kernel memory management docs
 
