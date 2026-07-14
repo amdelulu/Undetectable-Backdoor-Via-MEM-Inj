@@ -8,7 +8,7 @@ so full disclaimer: this is purely educational. i'm not sharing any actual files
 
 i've been deep in the rabbit hole for like a month now researching memory injection techniques and finally got something solid working. turns out you can use Python libraries to memory-inject C2 payloads and just... ghost past everything. no detections.
 
-tested it across basically every major C2 framework (Cobalt Strike, Havoc, Sliver, etc.) and it works seamlessly. i also ran it against Windows 10/11 fully updated with third-party antivirus running. completely undetected.
+tested it across basically every major C2 framework (Cobalt Strike, MetaSploit, etc.) and it works seamlessly. i also ran it against Windows 10/11 fully updated with third-party antivirus running. completely undetected.
 
 even built a dropper that keeps everything in-memory so there's nothing on disk to reverse engineer. the injection library encrypts and fragments the payload, then melts it into process memory. forensics nightmare.
 
