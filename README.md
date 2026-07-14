@@ -12,7 +12,7 @@ tested it across basically every major C2 framework (Cobalt Strike, MetaSploit, 
 
 even built a dropper that keeps everything in-memory so there's nothing on disk to reverse engineer. the injection library encrypts and fragments the payload, then melts it into process memory. forensics nightmare.
 
-![Demo](./notepad.png)
+<img src="./notepad.png" width="300">
 ![LP](./LP.png)
 ![Dropper](./Dropper.png)
 
